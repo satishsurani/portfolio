@@ -22,7 +22,7 @@ function Nav({textEnter, textLeave, backgroundState}: {textEnter: () => void, te
                     <div className="link-parent">
                         {/* <a href="https://david-chiang-blog.netlify.app/" data-state={backgroundState} target="_blank" onMouseEnter={textEnter} onMouseLeave={textLeave} className="link-block"><span className="fs-larger">B</span>log</a> */}
                         <a href="https://github.com/satishsurani" data-state={backgroundState} target="_blank" onMouseEnter={textEnter} onMouseLeave={textLeave} className="link-block"><span className="fs-larger">G</span>itHub</a>
-                        <a href="mailto:daveanthonyc@gmail.com" title="email" data-state={backgroundState} onMouseEnter={textEnter} onMouseLeave={textLeave} className="link-block"><span className="fs-larger">C</span>ontact</a>
+                        <a href="mailto:satishsurani60@gmail.com" title="email" data-state={backgroundState} onMouseEnter={textEnter} onMouseLeave={textLeave} className="link-block"><span className="fs-larger">C</span>ontact</a>
                     </div>
                 </motion.div>
             </nav>

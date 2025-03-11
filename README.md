@@ -2,9 +2,6 @@
 
 This is my website that devleoped in Typescript, React and the Framer Motion animation library
 
-It is based on contemporary "awwward" winning websites
-[Visit Awwwards](https://www.awwwards.com/)
-
 #### Features
 - Custom mouse cursor with a smooth animation
 - Parallax scroll for the header text

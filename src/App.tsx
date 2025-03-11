@@ -296,60 +296,7 @@ function App() {
                 x.set(event.clientX);
               }}
             >
-              <a
-                href="https://github.com/satishsurani/The-Fern-Hotel-Booking-Site"
-                title="Github Repo"
-                target="_blank"
-                className="portfolio-block-1"
-                onMouseEnter={() => setPortfolioImg("fern")}
-              >
-                <p className="small-txt-font">01.</p>
-                <motion.h2
-                  className="heading-txt margin-bottom"
-                  animate={{
-                    transform:
-                      portfolioImg === "fern"
-                        ? "translateX(15px)"
-                        : "translateX(0px)",
-                    opacity:
-                      portfolioImg === "fern" || portfolioImg === "none"
-                        ? 1
-                        : 0.4,
-                    color:
-                      portfolioImg === "fern" || portfolioImg === "none"
-                        ? "#0f0f0f"
-                        : "#c8c1b4",
-                    transition: {
-                      duration: 1.7,
-                      ease: [0.3, 1.4, 0.3, 1],
-                    },
-                  }}
-                  onMouseEnter={textEnter}
-                  onMouseLeave={textLeave}
-                >
-                  The Fern Hotel.
-                </motion.h2>
-                <motion.img
-                  style={{ translateX, rotateZ }}
-                  className="portfolio-img"
-                  src={fern}
-                  alt="mybus"
-                  initial={{
-                    opacity: 0,
-                  }}
-                  animate={{
-                    transform:
-                      portfolioImg === "fern"
-                        ? `translateX(0px)`
-                        : "translateX(90px) rotate(4deg)",
-                    opacity: portfolioImg === "fern" ? 1 : 0,
-                    transition: {
-                      duration: 1,
-                      ease: [0.3, 1.4, 0.3, 1],
-                    },
-                  }}
-                />
-              </a>
+              
 
               <a
                 href="https://github.com/satishsurani/Mybus-Bus-Booking-site"
@@ -406,6 +353,61 @@ function App() {
                 />
               </a>
 
+              <a
+                href="https://github.com/satishsurani/The-Fern-Hotel-Booking-Site"
+                title="Github Repo"
+                target="_blank"
+                className="portfolio-block-1"
+                onMouseEnter={() => setPortfolioImg("fern")}
+              >
+                <p className="small-txt-font">01.</p>
+                <motion.h2
+                  className="heading-txt margin-bottom"
+                  animate={{
+                    transform:
+                      portfolioImg === "fern"
+                        ? "translateX(15px)"
+                        : "translateX(0px)",
+                    opacity:
+                      portfolioImg === "fern" || portfolioImg === "none"
+                        ? 1
+                        : 0.4,
+                    color:
+                      portfolioImg === "fern" || portfolioImg === "none"
+                        ? "#0f0f0f"
+                        : "#c8c1b4",
+                    transition: {
+                      duration: 1.7,
+                      ease: [0.3, 1.4, 0.3, 1],
+                    },
+                  }}
+                  onMouseEnter={textEnter}
+                  onMouseLeave={textLeave}
+                >
+                  The Fern Hotel.
+                </motion.h2>
+                <motion.img
+                  style={{ translateX, rotateZ }}
+                  className="portfolio-img"
+                  src={fern}
+                  alt="mybus"
+                  initial={{
+                    opacity: 0,
+                  }}
+                  animate={{
+                    transform:
+                      portfolioImg === "fern"
+                        ? `translateX(0px)`
+                        : "translateX(90px) rotate(4deg)",
+                    opacity: portfolioImg === "fern" ? 1 : 0,
+                    transition: {
+                      duration: 1,
+                      ease: [0.3, 1.4, 0.3, 1],
+                    },
+                  }}
+                />
+              </a>
+              
               <a
                 href="https://github.com/satishsurani/TodoApp-Laravel"
                 title="Github repo"
