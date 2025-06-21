@@ -36,15 +36,15 @@ function Nav({
             S<span className="clr-neutral-beige">S</span>
           </a>
           <div className="link-parent">
-            <a
-              href="/satishsurani.pdf"
-              download="SatishSurani_CV.pdf"
-              className="link-block"
-              onMouseEnter={textEnter}
-              onMouseLeave={textLeave}
-            >
-              <span className="fs-larger">Download</span> CV
-            </a>
+            {/*<a*/}
+            {/*  href="/satishsurani.pdf"*/}
+            {/*  download="SatishSurani_CV.pdf"*/}
+            {/*  className="link-block"*/}
+            {/*  onMouseEnter={textEnter}*/}
+            {/*  onMouseLeave={textLeave}*/}
+            {/*>*/}
+            {/*  <span className="fs-larger">Download</span> CV*/}
+            {/*</a>*/}
             
             <a
               href="https://github.com/satishsurani"

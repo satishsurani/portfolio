@@ -6,7 +6,7 @@ import htmlicon from "./assets/800px-HTML5_Badge.svg.png";
 import cssicon from "./assets/CSS3_logo.svg.png";
 import jsicon from "./assets/javascript-logo-8892AEFCAC-seeklogo.com.png";
 import laravelicon from "./assets/laravel.svg";
-import bsicon from "./assets/bootstrap.png";
+import djangoicon from "./assets/django.webp";
 import todo from "./assets/todo.png";
 import mybus from "./assets/mybus.png";
 import SkillCard from "./Components/SkillCard";
@@ -16,10 +16,13 @@ import { useEffect, useState } from "react";
 import Button from "./Components/Button";
 import jqicon from "./assets/jquery.webp";
 import mysqlicon from "./assets/mysql.png";
-import twicon from "./assets/tailwind.png";
+import aimlicon from "./assets/aiml.webp";
 import giticon from "./assets/git.png";
 import phpicon from "./assets/php.png";
 import fern from "./assets/fern.png";
+import wordpressicon from "./assets/wordpress.webp";
+import pythonicon from "./assets/python.webp";
+// import phpicon from "./assets/php.png";
 // import dockericon from './assets/97_Docker_logo_logos-512.png'
 // import storybookicon from './assets/storybook-icon.svg'
 // import awsicon from './assets/AWS-Cloud-logo_32.svg'
@@ -202,10 +205,9 @@ function App() {
                   I'm a passionate developer based in Gandhinagar, Gujrat.
                   <br />
                   <br />
-                  Welcome to my portfolio! I'm a developer specializing in PHP
-                  and Laravel, building dynamic web applications. I'm always
+                  Welcome to my portfolio! I'm a developer specializing in Wordpress and Backend Developer, building dynamic web applications. I'm always
                   learning new skills, solving problems, and exploring the power
-                  of AI. Currently open to job opportunities and projects—feel
+                  of AI. Currently open to projects—feel
                   free to connect!
                 </p>
               </div>
@@ -241,6 +243,8 @@ function App() {
 
         <section className="section-skills">
           <div className="skills-box skills-container">
+            <SkillCard imgurl={wordpressicon}>Wordpress</SkillCard>
+            <SkillCard imgurl={pythonicon}>Python</SkillCard>
             <SkillCard imgurl={phpicon}>Php</SkillCard>
             <SkillCard imgurl={laravelicon}>Laravel</SkillCard>
             <SkillCard imgurl={htmlicon}>HTML</SkillCard>
@@ -248,8 +252,8 @@ function App() {
             <SkillCard imgurl={jsicon}>JavaScript</SkillCard>
             <SkillCard imgurl={jqicon}>Jquery</SkillCard>
             <SkillCard imgurl={mysqlicon}>MySql</SkillCard>
-            <SkillCard imgurl={bsicon}>Bootstrap</SkillCard>
-            <SkillCard imgurl={twicon}>Tailwind Css</SkillCard>
+            <SkillCard imgurl={aimlicon}>AI/ML</SkillCard>
+            <SkillCard imgurl={djangoicon}>Django</SkillCard>
             <SkillCard imgurl={giticon}>Git & GitHub</SkillCard>
 
             {/* <SkillCard  imgurl={tsicon}>TypeScript</SkillCard> */}
